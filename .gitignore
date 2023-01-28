@@ -1,3 +1,5 @@
+/coverage.data
+/coverage/
 node_modules
 .sd*
 
