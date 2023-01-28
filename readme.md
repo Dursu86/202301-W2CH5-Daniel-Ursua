@@ -1,6 +1,6 @@
 # Week 2 - Weekend Challenge
 
-## Conway Game of Life 🦠 !
+## Conway Game of Life
 
 Deberás de programar el [Juego de la vida de Conway](https://es.wikipedia.org/wiki/Juego_de_la_vida).
 
@@ -25,8 +25,6 @@ Si quieres probar como funciona para hacerte una idea, puedes probar una versió
 5. Debe utilizarse GitActions el workflow adjunto.
 6. Debe protegerse main en GitHub para que todo lo que se mergee pase por pull-request y que el workflow se cumpla.
 7. En el caso de llegar a HTML/CSS.
-  4.1. Se utilizará BEM/SASS.
-  4.2. Se debe desplegar a Netlify.
 
 ## Milestones
 
