@@ -10,8 +10,10 @@ const liveAction = (num) => {
   let board = initialChange(initialBoard, num);
   board = newBoard(board);
   setInterval(() => {
+    frameCons(board);
     board = newBoard(board);
-  }, 200);
+    console.table(board);
+  }, 1500);
 };
 
 liveAction(24);
