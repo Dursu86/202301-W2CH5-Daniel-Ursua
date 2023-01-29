@@ -1,7 +1,4 @@
-import { cellsGen } from './functions/board.js';
-import { cellsSplice } from './functions/board.js';
-import { frameCons } from './functions/board.js';
-
+import { cellsGen, cellsSplice, frameCons } from './functions/board.js';
 import { newBoard } from './functions/position.js';
 import { initialChange } from './functions/initialChange.js';
 

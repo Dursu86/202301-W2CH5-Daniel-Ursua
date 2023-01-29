@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1675033137337" clover="3.2.0">
-  <project timestamp="1675033137337" name="All files">
+<coverage generated="1675033420921" clover="3.2.0">
+  <project timestamp="1675033420921" name="All files">
     <metrics statements="46" coveredstatements="46" conditionals="9" coveredconditionals="9" methods="8" coveredmethods="8" elements="63" coveredelements="63" complexity="0" loc="46" ncloc="46" packages="1" files="3" classes="3"/>
     <file name="board.js" path="/Users/daniel/Documents/Bootcamp/Challenges/W2CH5/functions/board.js">
       <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
