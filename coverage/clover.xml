@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1674929961133" clover="3.2.0">
-  <project timestamp="1674929961133" name="All files">
-    <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="24" coveredelements="24" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+<coverage generated="1675033420921" clover="3.2.0">
+  <project timestamp="1675033420921" name="All files">
+    <metrics statements="46" coveredstatements="46" conditionals="9" coveredconditionals="9" methods="8" coveredmethods="8" elements="63" coveredelements="63" complexity="0" loc="46" ncloc="46" packages="1" files="3" classes="3"/>
     <file name="board.js" path="/Users/daniel/Documents/Bootcamp/Challenges/W2CH5/functions/board.js">
       <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <line num="1" count="1" type="stmt"/>
@@ -25,6 +25,37 @@
       <line num="31" count="2" type="stmt"/>
       <line num="32" count="2" type="stmt"/>
       <line num="34" count="2" type="stmt"/>
+    </file>
+    <file name="initialChange.js" path="/Users/daniel/Documents/Bootcamp/Challenges/W2CH5/functions/initialChange.js">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+    </file>
+    <file name="position.js" path="/Users/daniel/Documents/Bootcamp/Challenges/W2CH5/functions/position.js">
+      <metrics statements="19" coveredstatements="19" conditionals="9" coveredconditionals="9" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="20" type="stmt"/>
+      <line num="12" count="160" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="22" type="cond" truecount="5" falsecount="0"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="20" count="17" type="cond" truecount="4" falsecount="0"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="24" count="14" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="31" count="3" type="stmt"/>
+      <line num="32" count="18" type="stmt"/>
+      <line num="33" count="18" type="stmt"/>
+      <line num="34" count="18" type="stmt"/>
+      <line num="37" count="3" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

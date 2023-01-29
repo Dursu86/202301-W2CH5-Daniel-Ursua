@@ -1,4 +1,4 @@
-import { cellsGen } from './board';
+import { cellsGen, cellsSplice, frameCons } from './board';
 
 describe('Given a number ', () => {
   describe('When the number is 2', () => {
@@ -10,8 +10,6 @@ describe('Given a number ', () => {
     });
   });
 });
-
-import { cellsSplice } from './board';
 
 describe('Given an array and a number ', () => {
   describe('When the number is 2 and the array was [0, 0, 0, 0]', () => {
@@ -27,8 +25,6 @@ describe('Given an array and a number ', () => {
     });
   });
 });
-
-import { frameCons } from './board';
 
 describe('Given an array', () => {
   describe('When the array was [[0, 0],[0, 0]] ', () => {

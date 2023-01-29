@@ -37,5 +37,5 @@ export const newBoard = (board) => {
     resultBoard.push(row);
   }
 
-  console.log(resultBoard);
+  return resultBoard;
 };
