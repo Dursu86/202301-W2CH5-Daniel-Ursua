@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">12% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>25/25</span>
+                <span class='fraction'>3/25</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>0/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">14.28% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>21/21</span>
+                <span class='fraction'>3/21</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -99,74 +99,74 @@
 <a name='L34'></a><a href='#L34'>34</a>
 <a name='L35'></a><a href='#L35'>35</a>
 <a name='L36'></a><a href='#L36'>36</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export const cellsGen = (num) =&gt; {
-  const totalCells = [];
-  for (let i = 0; i &lt; num; i++) {
-    totalCells.push(0);
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export const cellsGen = <span class="fstat-no" title="function not covered" >(n</span>um) =&gt; {
+  const totalCells = <span class="cstat-no" title="statement not covered" >[];</span>
+<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; num; i++) {</span>
+<span class="cstat-no" title="statement not covered" >    totalCells.push(0);</span>
   }
 &nbsp;
-  return totalCells;
+<span class="cstat-no" title="statement not covered" >  return totalCells;</span>
 };
 &nbsp;
-export const cellsSplice = (arr, rowLength) =&gt; {
-  const boardCells = [];
-  for (let i = 0; i &lt; arr.length; i += rowLength) {
-    const row = arr.slice(i, i + rowLength);
-    boardCells.push(row);
+export const cellsSplice = <span class="fstat-no" title="function not covered" >(a</span>rr, rowLength) =&gt; {
+  const boardCells = <span class="cstat-no" title="statement not covered" >[];</span>
+<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; arr.length; i += rowLength) {</span>
+    const row = <span class="cstat-no" title="statement not covered" >arr.slice(i, i + rowLength);</span>
+<span class="cstat-no" title="statement not covered" >    boardCells.push(row);</span>
   }
 &nbsp;
-  return boardCells;
+<span class="cstat-no" title="statement not covered" >  return boardCells;</span>
 };
 &nbsp;
-export const frameCons = (arr) =&gt; {
-  const rowX = [];
-  for (let i = 0; i &lt; arr.length; i++) {
-    arr[i].push('x');
-    arr[i].unshift('x');
+export const frameCons = <span class="fstat-no" title="function not covered" >(a</span>rr) =&gt; {
+  const rowX = <span class="cstat-no" title="statement not covered" >[];</span>
+<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; arr.length; i++) {</span>
+<span class="cstat-no" title="statement not covered" >    arr[i].push('x');</span>
+<span class="cstat-no" title="statement not covered" >    arr[i].unshift('x');</span>
   }
 &nbsp;
-  for (let i = 0; i &lt; arr[0].length; i++) {
-    rowX.push('x');
+<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; arr[0].length; i++) {</span>
+<span class="cstat-no" title="statement not covered" >    rowX.push('x');</span>
   }
 &nbsp;
-  arr.unshift(rowX);
-  arr.push(rowX);
+<span class="cstat-no" title="statement not covered" >  arr.unshift(rowX);</span>
+<span class="cstat-no" title="statement not covered" >  arr.push(rowX);</span>
 &nbsp;
-  return arr;
+<span class="cstat-no" title="statement not covered" >  return arr;</span>
 };
 &nbsp;</pre></td></tr></table></pre>
 
@@ -175,7 +175,7 @@ export const frameCons = (arr) =&gt; {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-01-28T18:19:21.116Z
+                at 2023-01-29T19:01:53.114Z
             </div>
         <script src="prettify.js"></script>
         <script>
