@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1675018913142" clover="3.2.0">
-  <project timestamp="1675018913142" name="All files">
-    <metrics statements="21" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0" elements="24" coveredelements="3" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
-    <file name="board.js" path="/Users/daniel/Documents/Bootcamp/Challenges/W2CH5/functions/board.js">
-      <metrics statements="21" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="0" type="stmt"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
-      <line num="7" count="0" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="12" count="0" type="stmt"/>
-      <line num="13" count="0" type="stmt"/>
-      <line num="14" count="0" type="stmt"/>
-      <line num="17" count="0" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="21" count="0" type="stmt"/>
-      <line num="22" count="0" type="stmt"/>
-      <line num="23" count="0" type="stmt"/>
-      <line num="24" count="0" type="stmt"/>
-      <line num="27" count="0" type="stmt"/>
-      <line num="28" count="0" type="stmt"/>
-      <line num="31" count="0" type="stmt"/>
-      <line num="32" count="0" type="stmt"/>
-      <line num="34" count="0" type="stmt"/>
-    </file>
+<coverage generated="1675019130799" clover="3.2.0">
+  <project timestamp="1675019130799" name="All files">
+    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
   </project>
 </coverage>
