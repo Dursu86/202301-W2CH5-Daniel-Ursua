@@ -4,6 +4,7 @@ describe('Given a number ', () => {
   describe('When the number is 2', () => {
     test('Then the length of the array should be 20', () => {
       const a = 2;
+      s;
       const result = cellsGen(a);
       const expected = [0, 0];
       expect(result).toEqual(expected);
