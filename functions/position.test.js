@@ -1,4 +1,4 @@
-import { checkAround } from './position.js';
+import { checkAround, isAlive, newBoard } from './position.js';
 
 describe('Given an array element ', () => {
   describe('When the number is surrounded only by one', () => {
@@ -38,7 +38,6 @@ describe('Given an array element ', () => {
   });
 });
 
-import { isAlive } from './position';
 describe('Given a cell value of 0', () => {
   describe('When the alive account is 3 ', () => {
     test('Then the function should return 1', () => {
@@ -87,7 +86,6 @@ describe('Given a cell value of 1', () => {
   });
 });
 
-import { newBoard } from './position.js';
 describe('Given a cell value of 0', () => {
   describe('When the alive account is 3 ', () => {
     test('Then the function should return 1', () => {
