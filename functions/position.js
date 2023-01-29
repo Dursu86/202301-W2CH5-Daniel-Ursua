@@ -1,4 +1,4 @@
-const checkAround = (board, index, element) => {
+export const checkAround = (board, index, element) => {
   const around = [
     board[index][element - 1],
     board[index][element + 1],
@@ -12,7 +12,7 @@ const checkAround = (board, index, element) => {
   return around.filter((element) => element === 1).length;
 };
 
-const isAlive = (aliveCount, cell) => {
+export const isAlive = (aliveCount, cell) => {
   if (cell === 1 && (aliveCount === 2 || aliveCount === 3)) {
     return 1;
   }
@@ -24,7 +24,7 @@ const isAlive = (aliveCount, cell) => {
   return 0;
 };
 
-const newBoard = (board) => {
+export const newBoard = (board) => {
   const resultBoard = [];
   for (let i = 1; i < board.length - 1; i++) {
     const row = [];
